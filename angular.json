@@ -28,6 +28,9 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bulma/css/bulma.min.css",
+              "node_modules/bulma/bulma.sass",
+              "node_modules/font-awesome/scss/font-awesome.scss",
               "src/styles.scss"
             ],
             "scripts": []

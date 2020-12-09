@@ -7,7 +7,7 @@ $link: $primary; // #00b3e6; // #ff4081;
 
 $shade-light: #fafafa;
 
-@import '../node_modules/bulma/bulma.sass';
+@import 'bulma/bulma.sass';
 
 .menu-list .router-link-active {
   color: #fff;
