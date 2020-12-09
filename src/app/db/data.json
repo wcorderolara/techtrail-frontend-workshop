@@ -1,0 +1,62 @@
+{
+  "heroes": [
+    {
+      "id": "7b358b4a-3a48-11eb-adc1-0242ac120002",
+      "name": "Terminator",
+      "description": "Robot that comes from future to help us",
+      "powers": []
+    },
+    {
+      "id": "7b358dc0-3a48-11eb-adc1-0242ac120002",
+      "name": "Obi-Wan Kenobi",
+      "description": "One of the best Jedi's",
+      "powers": ["use the force"]
+    },
+    {
+      "id": "7b358eba-3a48-11eb-adc1-0242ac120002",
+      "name": "Batman",
+      "description": "The Dark Knight",
+      "powers": ["billionaire"]
+    },
+    {
+      "id": "7b358faa-3a48-11eb-adc1-0242ac120002",
+      "name": "The Mandalorian",
+      "description": "Character to save the Star Wars Franchise with the Space Pikachu",
+      "powers": ["none but it's awesome"]
+    },
+    {
+      "id": "7b359270-3a48-11eb-adc1-0242ac120002",
+      "name": "Flash",
+      "description": "The fastest man alive",
+      "poers": ["use the speed force"]
+    },
+    {
+      "id": "7b359338-3a48-11eb-adc1-0242ac120002",
+      "name": "Harry Potter",
+      "description": "Famous Wizard",
+      "powers": ["ability to get in trouble "]
+    }
+  ],
+  "villains": [
+    {
+      "id": "7b359400-3a48-11eb-adc1-0242ac120002",
+      "name": "Tom Marvolo Riddle",
+      "description": "The wizard that can't be named"
+    },
+    {
+      "id": "7b3594be-3a48-11eb-adc1-0242ac120002",
+      "name": "Moff Gideon",
+      "description": "Mandalorian Villain - Belongs to Gus Multiverse"
+    },
+    {
+      "id": "7b359572-3a48-11eb-adc1-0242ac120002",
+      "name": "The Joker",
+      "description": "The best character ever"
+    },
+    {
+      "id": "7b35963a-3a48-11eb-adc1-0242ac120002",
+      "name": "Darth Vader",
+      "description": "A bad guy with troubles to breathe"
+    }
+  ]
+}

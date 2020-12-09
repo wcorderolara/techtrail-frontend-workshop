@@ -1,0 +1,10 @@
+<button
+      class="link"
+      [ngClass]="className"
+      [attr.aria-label]="label"
+      tabindex="0"
+      [attr.data-id]="item.id"
+      (click)="handleClick()"
+    >
+      <i [ngClass]="iconClasses"></i> <span>{{ label }}</span>
+    </button>
