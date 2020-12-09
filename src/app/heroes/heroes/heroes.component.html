@@ -6,7 +6,7 @@
     (refresh)="getHeroes()"
   ></app-list-header>
   <div class="columns is-multiline is-variable">
-    <div class="column is-8" *ngIf="heroes$ | async as heroes">
+    <div class="column is-8" *ngIf="heroes">
       <app-hero-list
         *ngIf="!selected"
         [heroes]="heroes"

@@ -9,6 +9,7 @@ export class CardContentComponent implements OnInit {
 
   @Input() name;
   @Input() description;
+  @Input() powers = [];
 
   ngOnInit() {
   }

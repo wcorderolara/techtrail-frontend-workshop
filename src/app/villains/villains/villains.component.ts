@@ -11,7 +11,7 @@ import { VillainService } from '../services/villain.service';
 export class VillainsComponent implements OnInit {
 
   selected: Villain;
-  villains$: Observable<Villain[]>;
+  villains: Array<Villain>;
   message = '?';
   villainToDelete: Villain;
   showModal = false;
@@ -56,7 +56,7 @@ export class VillainsComponent implements OnInit {
   }
 
   getVillains() {
-    this.villainService.getAll();
+    this.villains = this.villainService.getAll();
     this.clear();
   }
 

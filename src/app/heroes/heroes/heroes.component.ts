@@ -11,7 +11,7 @@ import { HeroService } from '../services/hero.service';
 export class HeroesComponent implements OnInit {
 
   selected: Hero;
-  heroes$: Observable<Hero[]>;
+  heroes: Array<Hero>;
   message = '?';
   heroToDelete: Hero;
   showModal = false;
@@ -57,7 +57,7 @@ export class HeroesComponent implements OnInit {
   }
 
   getHeroes() {
-    this.heroService.getAll();
+    this.heroes = this.heroService.getAll();
     this.clear();
   }
 
